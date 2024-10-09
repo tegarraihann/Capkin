@@ -1,0 +1,20 @@
+1. php artisan serve
+2. npm run dev
+
+kalau ada perbaikan kolom database (php artisan migrate:rollback)
+
+setelah diperbaiki (php artisan migrate)
+
+kemudian masukkan data dengan seeder
+
+urutan seeder data
+(php artisan db:seed --class=[Nama_Seeder])
+
+1. BidangSeeder
+2. UserSeeder
+3. TriwulanSeeder
+4. TujuanSeeder
+5. SasaranSeeder
+6. IndikatorSeeder
+7. IndikatorPenunjangSeeder
+8. SubIndikatorSeeder
